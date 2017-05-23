@@ -12,11 +12,11 @@
     vertical-align: middle; 
 }
 
-#menu-0 .navbar-caption {
+#menu .navbar-caption {
     color: #ffffff;
 }
 
-#menu-0 .navbar-toggler {
+#menu .navbar-toggler {
     color: #ffffff;
     position: relative;
 }
@@ -30,47 +30,46 @@
     vertical-align: middle; 
 }
 
-#menu-0 .link,
-#menu-0 .dropdown-item {
-  color: #ffffff;
+#menu .link,
+#menu .dropdown-item {
+    color: #202020;
 }
 
 /*a class dropdown-item*/
-#menu-0 .link,
-#menu-0 .dropdown-item {
-  color: #ffffff;
+#menu .link {
+    color: #ffffff;
 }
 
-#menu-0 .dropdown-item,
-#menu-0 .nav-dropdown-sm .link {
-  font-size: 0.8rem;
+#menu .dropdown-item,
+#menu .nav-dropdown-sm .link {
+    font-size: 0.8rem;
 }
 
-#menu-0 .link:hover,
-#menu-0 .dropdown-item:hover,
-#menu-0 .link:focus,
-#menu-0 .dropdown-item:focus {
-  color: #f3c649;
+#menu .link:hover,
+#menu .dropdown-item:hover,
+#menu .link:focus,
+#menu .dropdown-item:focus {
+    color: #f3c649;
 }
 
-#menu-0 .nav-dropdown-sm .link:focus,
-#menu-0 .nav-dropdown-sm .link:hover,
-#menu-0 .nav-dropdown-sm .dropdown-item:focus,
-#menu-0 .nav-dropdown-sm .dropdown-item:hover {
-  background: #202020!important;
+#menu .nav-dropdown-sm .link:focus,
+#menu .nav-dropdown-sm .link:hover,
+#menu .nav-dropdown-sm .dropdown-item:focus,
+#menu .nav-dropdown-sm .dropdown-item:hover {
+    background: #202020!important;
 }
 
-#menu-0 .link[aria-expanded="true"],
-#menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #f3c649!important;
+#menu .link[aria-expanded="true"],
+#menu .dropdown-item[aria-expanded="true"] {
+    color: #f3c649!important;
 }
 
 /*div celebrity class dropdown-menu*/
-#menu-0 .navbar,
-#menu-0 .nav-dropdown-sm,
-#menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
-#menu-0 .nav-dropdown-sm .dropdown-menu {
-  background: #202020;
+#menu .navbar,
+#menu .nav-dropdown-sm,
+#menu .nav-dropdown-sm .link[aria-expanded="true"],
+#menu .nav-dropdown-sm .dropdown-menu {
+    background: #202020;
 }
 
 .core-section {
@@ -117,19 +116,29 @@
 }
 
 .lead p {
-  font-size: 1.07rem;
-  font-weight: 300;
-  margin-bottom: 2.3125rem; }
+    font-size: 1.07rem;
+    font-weight: 300;
+    margin-bottom: 2.3125rem; 
+}
 
 .lead {
-  font-size: 1.07rem;
-  font-weight: 300; }
+    font-size: 1.07rem;
+    font-weight: 300; 
+}
 
 .core-section-title {
-  margin-top: 0; }
+    margin-top: 0; 
+}
 
 .core-footer {
-  background: #323232;
-  color: #acacac;
-  font-size: 0.8125rem;
-  padding: 1.75rem 0; }
+    background: #323232;
+    color: #acacac;
+    font-size: 0.8125rem;
+    padding: 1.75rem 0; 
+}
+
+.slide {
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;    
+}
