@@ -142,3 +142,8 @@
     padding: 5px;
     width: 100%;    
 }
+
+.core-carousel {
+    margin: auto;
+    align-self: center;
+}
